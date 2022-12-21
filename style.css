@@ -415,11 +415,12 @@ footer a {
         min-width: 150px;
         min-height: 150px;
         margin-top: -50px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .inicio__informacion h1 {
-        margin: 20px 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
         text-align: center;
     }
 
@@ -485,13 +486,13 @@ footer a {
 
     .educacion__año,
     .educacion__tipo {
-        font-size: smaller;
+        font-size: 12px;
         margin-bottom: 10px;
     }
 
     .educacion__lugar {
         display: block;
-        font-size: smaller;
+        font-size: 12px;
         margin-bottom: 50px;
     }
 
