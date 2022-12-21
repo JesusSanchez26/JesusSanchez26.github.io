@@ -93,15 +93,15 @@ html {
     border-radius: 10px;
 }
 
-.inicio__informacion h2 {
-    font-size: larger;
+.inicio__informacion h1 {
+    font-size: larger;    
     font-weight: 700;
     color: var(--azul-mas-oscuro);
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
-.inicio__informacion h3 {
+.inicio__informacion h2 {
     font-size: large;
     font-weight: 500;
     color: var(--azul-oscuro);
@@ -367,6 +367,7 @@ footer a {
         top: 40px;
         left: 0;
         padding: 10px 0;
+        justify-content: space-between;
     }
 
     nav.responsive ul {
@@ -417,12 +418,12 @@ footer a {
         margin-bottom: 20px;
     }
 
-    .inicio__informacion h2 {
+    .inicio__informacion h1 {
         margin: 20px 0;
         text-align: center;
     }
 
-    .inicio__informacion h3 {
+    .inicio__informacion h2 {
         margin: 20px 0;
         text-align: center;
     }
