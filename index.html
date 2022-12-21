@@ -57,8 +57,8 @@
     <header class="header">
         <div class="header__container">
             <h1 class="header__text">Jesús</h1>
-            <nav>
-                <ul class="header__ul">
+            <nav id="nav" class="">
+                <ul class="header__ul" id="links">
                     <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
                     <li><a href="#sobremi" class="seleccionado" onclick="seleccionar(this)">Sobre mi</a></li>
                     <li><a href="#conocimientos" class="seleccionado" onclick="seleccionar(this)">Conocimientos</a></li>
@@ -66,7 +66,7 @@
                     <li><a href="#proyectos" class="seleccionado" onclick="seleccionar(this)">Proyectos</a></li>
                 </ul>
             </nav>
-            <div class="menu">
+            <div class="menu" onclick="responsiveMenu()">
                 <i class='bx bx-menu'></i>
             </div>
         </div>
@@ -81,7 +81,7 @@
             </div>
             <div class="inicio__informacion">
                 <h2>Jesús Sánchez Cambronero Campos</h2>
-                <h3>Estudiante de TI</h3>
+                <h3>Estudiante de Ingeniería Informática</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis veritatis explicabo
                     velit distinctio dolorum quisquam dicta incidunt aperiam laboriosam! Asperiores consectetur at aut
                     dignissimos ipsa vel laboriosam repellendus totam?</p>
@@ -266,6 +266,10 @@
             <a href="mailto: jesus.sanchez26@alu.uclm.es" class="footer__link"><i class='bx bx-envelope'></i></a>
         </div>
     </footer>
+
+    <!-- SCRIPTS -->
+
+    <script src="main.js"></script>
 
 </body>
 
