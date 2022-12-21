@@ -166,7 +166,7 @@ html {
 .sobremi__informacion__datos {
     text-align: justify;
     color: var(--gris);
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .sobremi__informacion__datos span {
@@ -457,6 +457,18 @@ footer a {
 
     .sobremi__informacion__titulo2 {
         margin-top: 40px;
+    }
+
+    .sobremi__informacion__datos {
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .sobremi__informacion__datos span {
+        margin-left: 5px;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     .conocimientos {
