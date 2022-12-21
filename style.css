@@ -153,7 +153,8 @@ html {
     justify-content: space-between;
 }
 
-.sobremi__informacion__titulo {
+.sobremi__informacion__titulo1,
+.sobremi__informacion__titulo2 {
     text-align: center;
     font-size: large;
     font-weight: 700;
@@ -362,8 +363,7 @@ footer a {
         background-color: var(--azul-mas-oscuro);
         width: 100%;
         position: absolute;
-
-        top: 30px;
+        top: 40px;
         left: 0;
         padding: 10px 0;
     }
@@ -379,10 +379,14 @@ footer a {
 
     .menu {
         display: block;
-        height: 10px;
+        height: 30px;
         margin: 5px;
         display: flex;
         align-items: center;
+    }
+
+    .bx-menu {
+        font-size: 30px;
     }
 
     .header__container {
@@ -403,8 +407,8 @@ footer a {
     .inicio__img {
         max-width: 200px;
         max-height: 200px;
-        min-width: 100px;
-        min-height: 100px;
+        min-width: 150px;
+        min-height: 150px;
         margin: -50px 0 0 0;
     }
 
@@ -427,6 +431,34 @@ footer a {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-decoration: none;
     }
+
+    .sobremi {
+        display: grid;
+        justify-content: center;
+    }
+
+    .sobremi__container {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .sobremi__informacion__titulo1 {
+        margin-top: -40px;
+    }
+
+    .sobremi__informacion__titulo2 {
+        margin-top: 40px;
+    }
+
+    .conocimientos {
+        display: grid;
+        justify-content: center;
+    }
+
+    .conocimientos__grupo {        
+        display: flex;
+        flex-flow: row wrap;
+    }
+
 }
