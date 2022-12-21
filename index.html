@@ -1,7 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONOS -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Página Web Jesús Sánchez Cambronero Campos</title>
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__text">Jesús</h1>
+            <nav>
+                <ul class="header__ul">
+                    <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                    <li><a href="#sobremi" class="seleccionado" onclick="seleccionar(this)">Sobre mi</a></li>
+                    <li><a href="#conocimientos" class="seleccionado" onclick="seleccionar(this)">Conocimientos</a></li>
+                    <li><a href="#educacion" class="seleccionado" onclick="seleccionar(this)">Educacion</a></li>
+                    <li><a href="#proyectos" class="seleccionado" onclick="seleccionar(this)">Proyectos</a></li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- INICIO -->
+
+    <section class="inicio section" id="inicio">
+        <div class="inicio__container">
+            <div class="inicio__img">
+                <img src="img/foto.jpg" alt="Jesús Sánchez Cambronero Campos Estudiante Informática UCLM ESI">
+            </div>
+            <div class="inicio__informacion">
+                <h2>Jesús Sánchez Cambronero Campos</h2>
+                <h3>Estudiante de TI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis veritatis explicabo
+                    velit distinctio dolorum quisquam dicta incidunt aperiam laboriosam! Asperiores consectetur at aut
+                    dignissimos ipsa vel laboriosam repellendus totam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, officiis nesciunt quaerat
+                    excepturi recusandae libero tenetur molestiae consequatur doloremque in vitae ea blanditiis et
+                    tempora aperiam pariatur non. Consequuntur, enim.</p>
+                <a download="" href="#" class="inicio__boton">Descargar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+
+    <section class="sobremi section" id="sobremi">
+        <h2 class="seccion__titulo">Sobre mi</h2>
+        <div class="sobremi__container">
+            <div class="sobremi__informacion">
+                <h3 class="sobremi__informacion__titulo">Informacion</h3>
+
+                <div class="sobremi__informacion__datos">
+                    <i class='bx bx-user'></i>
+                    <span>Jesús Sánchez Cambronero Campos</span>
+                </div>
+                <div class="sobremi__informacion__datos">
+                    <i class='bx bx-calendar'></i>
+                    <span>08-07-2001</span>
+                </div>
+                <div class="sobremi__informacion__datos">
+                    <i class='bx bx-envelope'></i>
+                    <span>jesus.sanchez26@alu.uclm.es</span>
+                </div>
+            </div>
+            <div class="sobremi__informacion">
+                <h3 class="sobremi__informacion__titulo">Habilidades</h3>
+
+                <div class="sobremi__informacion__datos">
+                    <i class='bx bx-calendar'></i>
+                    <span>Trabajo en equipo</span>
+                </div>
+                <div class="sobremi__informacion__datos">
+                    <i class='bx bx-book-content'></i>
+                    <span>Organización</span>
+                </div>
+                <div class="sobremi__informacion__datos">
+                    <i class='bx bx-check-circle'></i>
+                    <span>Capacidad para resolver problemas</span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- CONOCIMIENTOS -->
+
+    <section class="conocimientos section" id="conocimientos">
+        <h2 class="seccion__titulo">Conocimientos</h2>
+        <div class="conocimientos__container">
+            <div class="conocimientos__grupo">
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-java'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-c-plus-plus'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-python'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-github'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-typescript'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-javascript'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-css3'></i></a>
+                </div>
+                <div class="conocimientos__individual">
+                    <a href="" class="conocimientos__icono"><i class='bx bxl-android'></i></a>
+                </div>
+            </div>
+    </section>
+
+    <!-- EDUCACION -->
+
+    <section class="educacion section" id="educacion">
+        <h2 class="seccion__titulo">Formación</h2>
+        <div class="educacion__container">
+            <div class="educacion__grupo">
+                <div>
+                    <h3 class="educacion__año">2019</h3>
+                    <span class="educacion__lugar">Universidad de Castilla-La Mancha</span>
+                </div>
+
+                <div class="educacion__tiempo">
+                    <span class="educacion__circulo"></span>
+                    <span class="educacion__linea"></span>
+                </div>
+
+                <div>
+                    <h3 class="educacion__tipo">Inicio estudios en Ingeniería Informática</h3>                    
+                </div>
+            </div>
+
+            <div class="educacion__grupo">
+                <div>
+                    <h3 class="educacion__año">2020</h3>
+                    <span class="educacion__lugar">Udemy</span>
+                </div>
+
+                <div class="educacion__tiempo">
+                    <span class="educacion__circulo"></span>
+                    <span class="educacion__linea"></span>
+                </div>
+
+                <div>
+                    <h3 class="educacion__tipo">Curso programación en Python</h3>                    
+                </div>
+            </div>
+
+            <div class="educacion__grupo">
+                <div>
+                    <h3 class="educacion__año">2021</h3>
+                    <span class="educacion__lugar">Udemy</span>
+                </div>
+
+                <div class="educacion__tiempo">
+                    <span class="educacion__circulo"></span>
+                    <span class="educacion__linea"></span>
+                </div>
+
+                <div>
+                    <h3 class="educacion__tipo">Curso programación en JavaScript</h3>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+
+    <section class="proyectos section" id="proyectos">
+        <h2 class="seccion__titulo">Proyectos</h2>
+        <div class="proyectos__container">
+            <div class="proyectos__individual">
+                <img src="img/f1.png" alt="Proyecto Formula 1">
+                <div class="proyectos__informacion">
+                    <span class="proyectos__datos">'Video Interactivo F1' desarrollado para la asignatura Multimedia</span>                    
+                </div>
+            </div>
+            <div class="proyectos__individual">
+                <img src="img/IPOkemon.png" alt="Proyecto Formula 1">
+                <div class="proyectos__informacion">
+                    <span class="proyectos__datos">'IPOkemon' desarrollado para la asignatura IPO II</span>
+                </div>
+            </div>
+        </div>
+        <div class="proyectos__container">        
+            <div class="proyectos__individual">
+                <img src="img/boreal.ico" alt="Proyecto Formula 1">
+                <div class="proyectos__informacion">
+                    <span class="proyectos__datos">'Boreal' desarrollado para la asignatura COE</span>
+                </div>
+            </div>
+            <div class="proyectos__individual">
+                <img src="img/foodIA.png" alt="Proyecto Formula 1">
+                <span class="proyectos__datos">'FoodIA' desarrollado para la asignatura GSI</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>Hola, soy Jesús y esta es mi pagina web personal</p>
+        <div class="footer_social">
+            <a href="#" class="footer__link"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto: jesus.sanchez26@alu.uclm.es" class="footer__link"><i class='bx bx-envelope' ></i></a>
+        </div>
+    </footer>
+
 </body>
+
 </html>
