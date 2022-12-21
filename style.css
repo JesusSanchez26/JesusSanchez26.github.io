@@ -286,7 +286,8 @@ html {
 /* PROYECTOS */
 
 
-.proyectos__container {
+.proyectos__container1,
+.proyectos__container2 {
     max-width: 1100px;
     margin: auto;
     padding: 50px;
@@ -409,7 +410,8 @@ footer a {
         max-height: 200px;
         min-width: 150px;
         min-height: 150px;
-        margin: -50px 0 0 0;
+        margin-top: -50px;
+        margin-bottom: 20px;
     }
 
     .inicio__informacion h2 {
@@ -456,9 +458,88 @@ footer a {
         justify-content: center;
     }
 
-    .conocimientos__grupo {        
+    .conocimientos__container {
+        margin-top: -50px;
+    }
+
+    .conocimientos__grupo {
         display: flex;
         flex-flow: row wrap;
     }
 
+    .educacion {
+        display: grid;
+        justify-content: center;
+    }
+
+    .educacion__container {
+        margin-top: -50px;
+    }
+
+    .educacion__año,
+    .educacion__tipo {
+        font-size: smaller;
+        margin-bottom: 10px;
+    }
+
+    .educacion__lugar {
+        display: block;
+        font-size: smaller;
+        margin-bottom: 50px;
+    }
+
+    .educacion__año,
+    .educacion__lugar {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .educacion__tipo {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .conocimientos__container {
+        margin-top: -50px;
+    }
+
+    .conocimientos__grupo {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .proyectos {
+        display: grid;
+        justify-content: center;
+    }
+
+
+    .proyectos__container1 {
+        margin-top: -50px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .proyectos__container2 {
+        margin-top: -100px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+
+    .proyectos__individual {
+        margin-bottom: 50px;
+    }
+
+    .proyectos__individual img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid var(--azul-mas-oscuro);
+    }
+
+    .proyectos__datos {
+        font-size: small;
+    }
 }
